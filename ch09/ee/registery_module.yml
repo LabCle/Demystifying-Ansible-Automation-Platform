@@ -14,7 +14,7 @@
         url: https://quay.io/
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -26,7 +26,7 @@
         password: password
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -36,7 +36,7 @@
         wait: false
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 ...

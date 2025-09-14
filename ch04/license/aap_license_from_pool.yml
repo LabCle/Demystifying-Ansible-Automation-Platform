@@ -15,7 +15,7 @@
           support_level: Self-Support
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
       register: subscription
 
@@ -24,6 +24,6 @@
         pool_id: "{{ subscription.subscriptions[0].pool_id }}"
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

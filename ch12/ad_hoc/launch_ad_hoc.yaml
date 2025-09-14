@@ -13,7 +13,7 @@
         wait: false
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
       register: command
 
@@ -23,7 +23,7 @@
         timeout: 120
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Wait for ad job command max 120s
@@ -32,6 +32,6 @@
         timeout: 120
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

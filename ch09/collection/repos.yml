@@ -17,7 +17,7 @@
           - name: redhat_cop.controller_configuration
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -28,7 +28,7 @@
         requirements_file: requirements.yml
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -38,7 +38,7 @@
         wait: true
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -50,7 +50,7 @@
         token: aa.bb.cc
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 
@@ -60,7 +60,7 @@
         wait: true
         ah_host: https://hub.node/
         ah_username: admin
-        ah_password: secret123
+        ah_password: Proteu690201
         ah_path_prefix: galaxy
         validate_certs: false
 ...

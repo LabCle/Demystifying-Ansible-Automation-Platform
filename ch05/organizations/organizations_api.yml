@@ -8,7 +8,7 @@
       uri:
         url: https://controller.node/api/v2/organizations/
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true

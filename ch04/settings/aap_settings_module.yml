@@ -13,6 +13,6 @@
           CUSTOM_LOGIN_INFO: "Welcome to the Automation Controller"
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

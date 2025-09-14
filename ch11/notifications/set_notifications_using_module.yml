@@ -25,7 +25,7 @@
             message: "{{ '{{ job_friendly_name }} FAILED! Please look at {{ job.url }}' }}"
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Create the Test project
@@ -45,6 +45,6 @@
           - Slack_notification
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

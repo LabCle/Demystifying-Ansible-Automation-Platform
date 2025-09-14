@@ -8,7 +8,7 @@
       uri:
         url: https://controller.node/api/v2/organizations/?name=Default
         user: admin
-        password: secret123
+        password: Proteu690201
         method: GET
         validate_certs: false
         force_basic_auth: true
@@ -24,7 +24,7 @@
       uri:
         url: https://controller.node/api/v2/users/
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true
@@ -45,7 +45,7 @@
       uri:
         url: https://controller.node/api/v2/teams/
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true

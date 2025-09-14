@@ -15,7 +15,7 @@
         # bearer_token: token
         basic_auth:
           username: admin
-          password: secret123
+          password: Proteu690201
         static_configs:
           - targets:
               - controller.node

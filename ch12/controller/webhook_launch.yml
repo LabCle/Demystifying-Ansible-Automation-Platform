@@ -25,7 +25,7 @@
       ansible.controller.workflow_launch:
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         controller_validate_certs: false
         name: Webhook workflow
         organization: Default

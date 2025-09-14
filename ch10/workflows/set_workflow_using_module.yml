@@ -14,7 +14,7 @@
         state: present
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
     - name: Create the Test project
       ansible.controller.project:
@@ -28,7 +28,7 @@
         wait: true
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
     - name: Create Credentials
       ansible.controller.credential:
@@ -42,7 +42,7 @@
           password: password
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
     - name: Create Job Template
       ansible.controller.job_template:
@@ -76,7 +76,7 @@
         state: present
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
     - name: Launch a job template with survey
       job_launch:
@@ -85,7 +85,7 @@
           target_hosts: localhost
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
     - name: Push workflows to controller
       ansible.controller.workflow_job_template:
@@ -143,6 +143,6 @@
               type: job_template
         controller_host: 'https://controller.node'
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

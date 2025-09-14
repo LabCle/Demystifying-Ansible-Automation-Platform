@@ -8,7 +8,7 @@
       uri:
         url: https://ah.node/api/galaxy/_ui/v1/groups/
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true
@@ -32,7 +32,7 @@
       uri:
         url: https://ah.node/api/galaxy/_ui/v1/groups/?name=Joes123
         user: admin
-        password: secret123
+        password: Proteu690201
         method: GET
         validate_certs: false
         force_basic_auth: true
@@ -48,7 +48,7 @@
       uri:
         url: "https://ah.node/api/galaxy/_ui/v1/groups/{{group_data.json.data[0].id}}/model-permissions/"
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true
@@ -72,7 +72,7 @@
       uri:
         url: "https://ah.node/api/galaxy/_ui/v1/users/"
         user: admin
-        password: secret123
+        password: Proteu690201
         method: POST
         validate_certs: false
         force_basic_auth: true

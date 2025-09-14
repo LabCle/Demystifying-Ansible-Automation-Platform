@@ -19,26 +19,26 @@ aap_setup_prep_inv_vars:
   all:
     # workaround to avoid enabling the codeready repo on the autohub server
     pulp_rhel_codeready_repo: []
-    admin_password: 'secret123'
+    admin_password: 'Proteu690201'
     pg_host: 'database'
     pg_port: '5432'
 
     pg_database: 'awx'
     pg_username: 'awx'
-    pg_password: 'secret123'
+    pg_password: 'Proteu690201'
     pg_sslmode: 'prefer'  # set to 'verify-full' for client-side enforced SSL
 
     registry_url: 'registry.redhat.io'
     receptor_listener_port: 27199
 
-    automationhub_admin_password: 'secret123'
+    automationhub_admin_password: 'Proteu690201'
 
     automationhub_pg_host: 'database'
     automationhub_pg_port: '5432'
 
     automationhub_pg_database: 'automationhub'
     automationhub_pg_username: 'automationhub'
-    automationhub_pg_password: 'secret123'
+    automationhub_pg_password: 'Proteu690201'
     automationhub_pg_sslmode: 'prefer'
 
     automationhub_main_url: 'https://ah.node'
@@ -48,7 +48,7 @@ aap_setup_prep_inv_vars:
     automationhub_ssl_validate_certs: false
 
     sso_keystore_password: 'password'
-    sso_console_admin_password: 'secret123'
+    sso_console_admin_password: 'Proteu690201'
 
 aap_setup_prep_inv_secrets:
   all:

@@ -17,7 +17,7 @@
         state: present
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Add inventory
@@ -28,7 +28,7 @@
         state: present
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Add inventory source
@@ -45,7 +45,7 @@
         state: present
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Update a single inventory source
@@ -55,6 +55,6 @@
         organization: Default
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

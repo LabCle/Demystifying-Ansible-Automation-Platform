@@ -6,7 +6,7 @@
   vars:
     controller_hostname: https://controller.node
     controller_username: admin
-    controller_password: secret123
+    controller_password: Proteu690201
     controller_validate_certs: false
     controller_configuration_credentials_secure_logging: false
     controller_configuration_async_delay: 4

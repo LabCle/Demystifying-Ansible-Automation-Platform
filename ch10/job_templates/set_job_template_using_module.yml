@@ -14,7 +14,7 @@
         state: present
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Create the test project
@@ -29,7 +29,7 @@
         wait: true
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Create Credentials
@@ -44,7 +44,7 @@
           password: "password"
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Create Job Template
@@ -80,7 +80,7 @@
         state: present
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Launch a job template with survey
@@ -90,6 +90,6 @@
           target_hosts: "localhost"
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

@@ -8,7 +8,7 @@
   environment:
     CONTROLLER_HOST: https://controller.node
     CONTROLLER_USERNAME: admin
-    CONTROLLER_PASSWORD: secret123
+    CONTROLLER_PASSWORD: Proteu690201
     CONTROLLER_VERIFY_SSL: false
 
   tasks:

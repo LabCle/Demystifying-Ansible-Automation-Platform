@@ -22,7 +22,7 @@
         wait: false
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
       register: workflow_data
 
@@ -36,7 +36,7 @@
         timeout: 90
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
       register: node_lookup_results
       ignore_errors: true
@@ -50,7 +50,7 @@
         action: approve
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 
     - name: Wait for Workflow to finish
@@ -61,6 +61,6 @@
         timeout:                        60
         controller_host: https://controller.node
         controller_username: admin
-        controller_password: secret123
+        controller_password: Proteu690201
         validate_certs: false
 ...

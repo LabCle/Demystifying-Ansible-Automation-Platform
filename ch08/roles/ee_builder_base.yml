@@ -10,7 +10,7 @@
     ee_ah_host: hub
     ee_ah_token: 39c1cbdd87fa4d00b3cfcea504a2c035115f2448
     ee_registry_username: admin
-    ee_registry_password: secret123
+    ee_registry_password: Proteu690201
     ee_validate_certs: false
     base_registery_username: username
     base_registery_password: password

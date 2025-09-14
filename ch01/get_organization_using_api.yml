@@ -8,7 +8,7 @@
   tasks:
     - name: Get list of organizations
       uri:
-        url: https://controller.node/api/v2/organizations/
+        url: https://aap.lab.local/api/v2/organizations/
         user: admin
         password: Proteu690201
         method: GET
