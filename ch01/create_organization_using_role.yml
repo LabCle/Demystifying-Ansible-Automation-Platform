@@ -14,6 +14,10 @@
   collections:
     - awx.awx
     - redhat_cop.controller_configuration
-  roles:
-    - organizations
+  # roles:
+    # - organizations
+  tasks:
+    - name: Use organizations role from collection
+      ansible.builtin.include_role:
+        name: organizations
 ...
