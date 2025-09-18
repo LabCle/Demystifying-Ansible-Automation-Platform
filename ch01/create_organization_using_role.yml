@@ -19,5 +19,5 @@
   tasks:
     - name: Use organizations role from collection
       include_role:
-        name: redhat_cop.controller_configuration.organizations
+        name: redhat_cop.controller_configuration.roles.organizations
 ...
