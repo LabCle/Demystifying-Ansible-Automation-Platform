@@ -18,6 +18,6 @@
     # - organizations
   tasks:
     - name: Use organizations role from collection
-      ansible.builtin.include_role:
+      include_role:
         name: redhat_cop.controller_configuration.organizations
 ...
